@@ -1,28 +1,71 @@
 <!doctype html>
+<!--
+  Resources used:
+  PHP:
+  append info: https://tinyurl.com/ybl7rjk2
+  General Form: https://tinyurl.com/m82vr79
+
+  HTML:
+
+  CSS:
+
+  JAVASCRIPT:
+
+-->
 <html>
   <head>
-     <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta name="description" content="Just a website to show that I can build one.">
+    <meta name="keywords" content="Chase Shumaker Portfolio">
+    <meta name="author" content="Chase Shumaker">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="homecss.css">
+
+    <title>Chase Shumaker Portfolio</title>
   </head>
+
   <body>
-    <style>
-      @import url('https://fonts.googleapis.com/css?family=Crimson+Text');
-      body{
-        text-align: center;
-        font-family: 'Crimson Text', serif;
-      }
-    </style>
-    <div id = "centerWindow">
-      <h1>ahhhhhhhh! Sorry!</h1>
-      <h3>I haven't finished this yet and I am trying to build something nice
-        and impressive, until then you can reach me:</h3>
-      <a href="mailto:shumakerchase@gmail.com?Subject=Hello%20Chase">Email! Click me!</a><br>
-      <a href="CShuResume.pdf">Resume</a>
-    </div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Resume</a></li>
+        <li><a href="#">Prototype</a></li>
+      </ul>
+    </nav>
+    <header>
+      <h1>Chase Shumaker</h1>
+      <h2>At your service!</h2>
+    </header>
+    <section>
+      <form action="homephp.php" method="post" >
+      <p>Send me something!? <input type="text" id="feed"/></p>
+      <input type="submit"/>
+      </form>
+    </section>
+    <article>
+      <h3>About me:</h3>
+      <p>I am a beginner programmer, I know a bit about computers, and I like to repair stuff. My professional career
+      is sort of laid out in my resume but for the sake of one page I didn't provide my entire working history (Customer service work).
+      I am trying to gain momentum in my professional development career and just working with tech in a professional setting. I have
+      a lot to do and I want to explore a lot with this specific website. Whether it's UI or interactive content, I am going to attempt
+      it all.. over time. My first step is getting the content and interaction I want from the site. This for me starts with a blog like
+      form, for me and users. </p>
+    </article>
+    <article>
+      <h3>A list of interests that aren't tech:</h3>
+      <ol>
+        <li>The Simpsons.</li>
+        <li>Fallout 3.</li>
+        <li>Kurt Vonnegut.</li>
+        <li>Hunter X Hunter.</li>
+        <li>Fear and Loathing in Las Vegas</li>
+      </ol>
+    </article>
 
+    <footer>Website by Chase</footer>
 
-    <div id = "footer">
-      <p>Constructing since: 8/15/18 - 2:03pm</p>
-    </div>
-
+    <script src="homejs.js"></script>
   </body>
 </html>

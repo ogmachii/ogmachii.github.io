@@ -1,0 +1,64 @@
+html,body{
+  padding: 0;
+  margin: 0;
+
+  width: 100%;
+  height: 100%;
+
+}
+#contentWrp{
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+#contentWrp:hover{
+  background-color: grey;
+}
+#leftWrp{
+  float: left;
+  background-color: #fff44f;
+  width: 49%;
+  height: 100%;
+  text-align: left;
+  padding: 5px;
+}
+#leftWrp:hover{
+  background-color: lightblue;
+}
+#lContentwrp{
+  display: block;
+  margin-top: 25%;
+  font-size: 2em;
+}
+#linkOut:hover{
+  font-weight: bold;
+}
+#rightWrp{
+  float: right;
+  background-color: #fff0ae;
+  width: 49%;
+  height: 100%;
+  padding: 5px;
+}
+#rightWrp:hover{
+  background-color: pink;
+}
+#rContentwrp{
+  margin: 25%;
+  display: inline-flex;
+  font-size: 5em;
+}
+#rImg{
+  height: 250px;
+  width: 250px;
+  border-radius: 150px;
+}
+#focusContent:hover{
+  color:grey;
+  font-weight: bold;
+
+}
+#altContent:hover{
+  color:blue;
+  font-weight: bold;
+}
